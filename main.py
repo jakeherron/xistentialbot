@@ -24,12 +24,12 @@ except Exception as e:
 # Ensure output is flushed immediately
 sys.stdout.reconfigure(line_buffering=True)
 
-load_dotenv()  # Load variables from .env file
-BEARER_TOKEN = os.environ.get("X_BEARER_TOKEN", "AAAAAAAAAAAAAAAAAAAAAE%2BqzgEAAAAA82yuHSsi1kPUMd2wrBtlAaK70g8%3Du3erA1Tz7CxZBWemRiaCXmbYZlZyH2JBDJPxfBhnYxmIG5Sa4i")
-API_KEY = os.environ.get("X_API_KEY", "pwZQh9Wdwk24ybijjXDsP555K")
-API_SECRET = os.environ.get("X_API_SECRET", "YigSdmC1RhmNKxBZDwtNtFkHFV0Tvqmh2cqIGE4FIrDIhHKzoR")
-ACCESS_TOKEN = os.environ.get("X_ACCESS_TOKEN", "1881223114434179072-Amv8uCV10mdpd1dU6IRQATTTDDt53I")
-ACCESS_TOKEN_SECRET = os.environ.get("X_ACCESS_TOKEN_SECRET", "QMdhDlFU37N5sypBHJbbP56NYeJhcLUtyRsJAKe6kx1YN")
+load_dotenv()
+BEARER_TOKEN = os.environ.get("X_BEARER_TOKEN")
+API_KEY = os.environ.get("X_API_KEY")
+API_SECRET = os.environ.get("X_API_SECRET")
+ACCESS_TOKEN = os.environ.get("X_ACCESS_TOKEN")
+ACCESS_TOKEN_SECRET = os.environ.get("X_ACCESS_TOKEN_SECRET")
 
 # Google Sheets
 SCOPE = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
