@@ -1,0 +1,6 @@
+tweepy
+gspread
+oauth2client
+pandas
+pytz
+python-dotenv
