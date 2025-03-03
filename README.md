@@ -1,11 +1,21 @@
 # xistentialbot: Automated Existential Tweet Generator and Poster
 
 ## Overview
-`xistentialbot` is a Python-based automation tool designed to schedule and post existential, thought-provoking tweets to the X platform, leveraging Google Sheets for content management and Google Cloud Platform (GCP) for serverless deployment. This project showcases my ability to integrate APIs, deploy cloud-based solutions, and craft concise, impactful content—skills directly applicable to prompt engineering and AI-driven development roles. Currently, it automates the posting of manually curated tweets, with plans to incorporate AI-generated content in the future. The project draws inspiration from profound works exploring human nature, technology, and societal absurdity.
+`xistentialbot` is a Python-based automation tool designed to schedule and post existential, thought-provoking tweets to the X platform, leveraging Google Sheets for content management and Google Cloud Platform (GCP) for serverless deployment. This project showcases my ability to integrate APIs, deploy cloud-based solutions, and craft concise, impactful content, building skills directly applicable to prompt engineering and AI-driven development. Currently, it automates the posting of manually curated tweets, but I have plans to incorporate AI-generated content in the future. The project draws inspiration from some of my favorite works exploring human nature, technology, and societal absurdity (listed below).
+
+## Inspirations
+This project draws inspiration from the following works, which shaped its existential and philosophical tone through prompting:
+- *Amusing Ourselves to Death* – Neil Postman (exploration of media’s impact on society)
+- *Brave New World* – Aldous Huxley (dystopian view of technology and control)
+- *1984* – George Orwell (surveillance and loss of freedom)
+- *Technopoly* – Neil Postman (technology’s dominance over culture)
+- *The Stranger* – Albert Camus (absurdity of human existence)
+- Works by Dostoyevsky (e.g., *Notes from Underground*, *Crime and Punishment*, *The Brothers Karamazov*) (depth of human psyche and morality)
+- *The Human Animal* – Desmond Morris (biological roots of human behavior)
 
 ## Project Goals
-- Automate the daily posting of existential reflections on human nature, technology, and modern absurdity.
-- Demonstrate proficiency in Python scripting, cloud computing, and API integration.
+- Automate daily posting of existential reflections on human nature, technology, and modern absurdity.
+- Demonstrate proficiency in Python scripting, prompting, cloud computing, and API integration.
 - Build a scalable, serverless solution using GCP tools.
 - Prepare a foundation for AI-driven content generation, aligning with prompt engineering objectives.
 
@@ -73,16 +83,6 @@ X_BEARER_TOKEN=your_bearer_token X_API_KEY=your_api_key X_API_SECRET=your_api_se
 - **API Integration**: Seamlessly connected X and Google Sheets APIs.
 - **Problem-Solving**: Overcame deployment and time zone challenges with effective debugging.
 
-## Inspirations
-This project draws inspiration from the following works, which shaped its existential and philosophical tone:
-- *Amusing Ourselves to Death* – Neil Postman (exploration of media’s impact on society)
-- *Brave New World* – Aldous Huxley (dystopian view of technology and control)
-- *1984* – George Orwell (surveillance and loss of freedom)
-- *Technopoly* – Neil Postman (technology’s dominance over culture)
-- *The Stranger* – Albert Camus (absurdity of human existence)
-- Works by Dostoyevsky (e.g., *Notes from Underground*, *Crime and Punishment*, *The Brothers Karamazov*) (depth of human psyche and morality)
-- *The Human Animal* – Desmond Morris (biological roots of human behavior)
-
 ## Future Enhancements
 - **AI Integration**: Plan to incorporate an AI model (e.g., OpenAI) to generate original existential tweets, log them in the Sheet, and automate posting—enhancing prompt engineering capabilities.
 - **Performance Optimization**: Explore filtering or batching for larger datasets.
@@ -91,9 +91,6 @@ This project draws inspiration from the following works, which shaped its existe
 ## Acknowledgments
 - Built with guidance from xAI’s Grok 3, leveraging its troubleshooting and optimization expertise.
 - Inspired by existential philosophy and the potential of automation in content creation.
-
-## License
-[MIT License](LICENSE) (or choose your preferred open-source license—create a `LICENSE` file if desired).
 
 ## Contact
 - GitHub: [jakeherron](https://github.com/jakeherron)
